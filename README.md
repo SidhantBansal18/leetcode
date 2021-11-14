@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./solutions/31.%20Next%20Permutation.java)|0 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./solutions/62.%20Unique%20Paths.java)|0 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./solutions/63.%20Unique%20Paths%20II.java)|0 ms|
 |79|[ Word Search](https://leetcode.com/problems/word-search/)|[Java](./solutions/79.%20Word%20Search.java)|94 ms|
