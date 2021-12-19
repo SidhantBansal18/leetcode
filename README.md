@@ -13,6 +13,7 @@
 |121|[ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.java)|4 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.java)|0 ms|
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](./solutions/162.%20Find%20Peak%20Element.java)|0 ms|
+|169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./solutions/169.%20Majority%20Element.java)|1 ms|
 |212|[ Word Search II](https://leetcode.com/problems/word-search-ii/)|[Java](./solutions/212.%20Word%20Search%20II.java)|1575 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.java)|4 ms|
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Java](./solutions/347.%20Top%20K%20Frequent%20Elements.java)|11 ms|
