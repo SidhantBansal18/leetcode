@@ -7,6 +7,7 @@
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./solutions/31.%20Next%20Permutation.java)|0 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.java)|1 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.java)|0 ms|
+|48|[ Rotate Image](https://leetcode.com/problems/rotate-image/)|[Java](./solutions/48.%20Rotate%20Image.java)|0 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./solutions/49.%20Group%20Anagrams.java)|6 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Java](./solutions/56.%20Merge%20Intervals.java)|5 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./solutions/62.%20Unique%20Paths.java)|0 ms|
