@@ -24,7 +24,7 @@
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./solutions/169.%20Majority%20Element.java)|1 ms|
 |212|[ Word Search II](https://leetcode.com/problems/word-search-ii/)|[Java](./solutions/212.%20Word%20Search%20II.java)|1575 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.java)|4 ms|
-|238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Java](./solutions/238.%20Product%20of%20Array%20Except%20Self.java)|2 ms|
+|238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Java](./solutions/238.%20Product%20of%20Array%20Except%20Self.java)|1 ms|
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](./solutions/240.%20Search%20a%202D%20Matrix%20II.java)|4 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |334|[ Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Java](./solutions/334.%20Increasing%20Triplet%20Subsequence.java)|2 ms|
