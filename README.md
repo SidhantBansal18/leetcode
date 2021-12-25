@@ -13,6 +13,7 @@
 |59|[ Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Java](./solutions/59.%20Spiral%20Matrix%20II.java)|0 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./solutions/62.%20Unique%20Paths.java)|0 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./solutions/63.%20Unique%20Paths%20II.java)|0 ms|
+|70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](./solutions/70.%20Climbing%20Stairs.java)|0 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Java](./solutions/74.%20Search%20a%202D%20Matrix.java)|0 ms|
 |75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](./solutions/75.%20Sort%20Colors.java)|2 ms|
 |79|[ Word Search](https://leetcode.com/problems/word-search/)|[Java](./solutions/79.%20Word%20Search.java)|94 ms|
