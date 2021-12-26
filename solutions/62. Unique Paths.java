@@ -7,14 +7,16 @@ class Solution {
         
         int[][] memo = new int[m+1][n+1];
         
-        for(int[] row: memo){
-            Arrays.fill(row, -1);
+        for (int i = 0; i < m; ++i) { // init
+            for (int j = 0; j < n; ++j) {
+                memo[i][j] = -1;
+            }
         }
         
         return helper(m-1,n-1, memo);
     }
     
-    //My top down approach
+    //Top down approach after removing Arrays.fill();
     
     public int helper(int row, int column, int[][] memo){
         
