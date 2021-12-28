@@ -36,4 +36,5 @@
 |438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Java](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.java)|16 ms|
 |451|[ Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Java](./solutions/451.%20Sort%20Characters%20By%20Frequency.java)|7 ms|
 |986|[ Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[Java](./solutions/986.%20Interval%20List%20Intersections.java)|2 ms|
+|1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.java)|19 ms|
 |1636|[ Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Java](./solutions/1636.%20Sort%20Array%20by%20Increasing%20Frequency.java)|6 ms|
