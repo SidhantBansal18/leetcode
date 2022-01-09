@@ -19,7 +19,7 @@
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[Java](./solutions/78.%20Subsets.java)|0 ms|
 |79|[ Word Search](https://leetcode.com/problems/word-search/)|[Java](./solutions/79.%20Word%20Search.java)|94 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.java)|1 ms|
-|102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.java)|0 ms|
+|102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.java)|2 ms|
 |103|[ Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./solutions/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.java)|1 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./solutions/118.%20Pascal's%20Triangle.java)|0 ms|
 |119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./solutions/119.%20Pascal's%20Triangle%20II.java)|1 ms|
