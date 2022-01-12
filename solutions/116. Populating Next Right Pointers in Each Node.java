@@ -24,17 +24,15 @@ class Node {
 class Solution {
     public Node connect(Node root) {
         if(root == null)    return root;
-        Node start = root;
-        
-        while(start.left != null){
-            Node temp = start;
-            while(temp != null){
-                if(temp.left != null)   temp.left.next = temp.right;
-                if(temp.right != null && temp.next != null) temp.right.next = temp.next.left;
-                temp = temp.next;
-            }
-            start = start.left;
-        }
+        helper(root.left, root.right);
         return root;
+    }
+    
+    public void helper(Node left, Node right){
+        if(left == null || right == null || left.next == right)   return;
+        left.next = right;
+        helper(left.left, left.right);
+        helper(left.right, right.left);
+        helper(right.left, right.right);
     }
 }
