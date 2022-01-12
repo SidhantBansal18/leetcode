@@ -24,7 +24,7 @@
 |103|[ Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./solutions/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.java)|1 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.java)|0 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./solutions/112.%20Path%20Sum.java)|1 ms|
-|116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.java)|8 ms|
+|116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.java)|0 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./solutions/118.%20Pascal's%20Triangle.java)|0 ms|
 |119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./solutions/119.%20Pascal's%20Triangle%20II.java)|1 ms|
 |121|[ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.java)|4 ms|
