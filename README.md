@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./solutions/5.%20Longest%20Palindromic%20Substring.java)|71 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](./solutions/11.%20Container%20With%20Most%20Water.java)|3 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Java](./solutions/15.%203Sum.java)|19 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./solutions/31.%20Next%20Permutation.java)|0 ms|
