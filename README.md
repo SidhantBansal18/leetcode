@@ -15,6 +15,7 @@
 |39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](./solutions/39.%20Combination%20Sum.java)|10 ms|
 |40|[ Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./solutions/40.%20Combination%20Sum%20II.java)|4 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Java](./solutions/46.%20Permutations.java)|5 ms|
+|47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./solutions/47.%20Permutations%20II.java)|2 ms|
 |48|[ Rotate Image](https://leetcode.com/problems/rotate-image/)|[Java](./solutions/48.%20Rotate%20Image.java)|0 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./solutions/49.%20Group%20Anagrams.java)|6 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Java](./solutions/56.%20Merge%20Intervals.java)|10 ms|
