@@ -49,6 +49,7 @@
 |128|[ Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](./solutions/128.%20Longest%20Consecutive%20Sequence.java)|558 ms|
 |139|[ Word Break](https://leetcode.com/problems/word-break/)|[Java](./solutions/139.%20Word%20Break.java)|7 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./solutions/141.%20Linked%20List%20Cycle.java)|0 ms|
+|143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](./solutions/143.%20Reorder%20List.java)||
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Java](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.java)|0 ms|
 |145|[ Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Java](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.java)|0 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.java)|0 ms|
