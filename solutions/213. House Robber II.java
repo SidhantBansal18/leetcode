@@ -1,29 +1,28 @@
 class Solution {
     public int rob(int[] nums) {
+        
         if(nums.length == 1)    return nums[0];
-        if(nums.length == 2)    return Math.max(nums[0], nums[1]);
+        if(nums.length < 3)    return Math.max(nums[0], nums[1]);
         
-        int[] includeFirst = Arrays.copyOfRange(nums, 0, nums.length-1);
-        int[] excludeFirst = Arrays.copyOfRange(nums, 1, nums.length);
+        int first = helper(nums, 0, nums.length-1);
+        int second = helper(nums, 1, nums.length);
         
-        int[] dp1 = new int[includeFirst.length];
-        dp1[0] = includeFirst[0];
-        dp1[1] = Math.max(includeFirst[0], includeFirst[1]);
+        return Math.max(first, second);
+    }
+    
+    
+    public int helper(int[] nums, int first, int last){
         
-        for(int i = 2; i < dp1.length; i++){
-            dp1[i] = Math.max(dp1[i-1] , includeFirst[i] + dp1[i-2]);
+        int[] dp = new int[last-first];
+        dp[0] = nums[first];
+        if(nums.length < 2) return dp[first];
+        
+        dp[1] = Math.max(nums[first], nums[first+1]);
+        
+        for(int i = 2; i < dp.length; i++){
+            dp[i] = Math.max(dp[i-1], nums[first+i] + dp[i-2]);
         }
         
-        
-        int[] dp2 = new int[excludeFirst.length];
-        dp2[0] = excludeFirst[0];
-        dp2[1] = Math.max(excludeFirst[0], excludeFirst[1]);
-        
-        for(int i = 2; i < dp2.length; i++){
-            dp2[i] = Math.max(dp2[i-1] , excludeFirst[i] + dp2[i-2]);
-        }
-        
-        
-        return Math.max(dp1[includeFirst.length-1],dp2[excludeFirst.length-1] );
+        return dp[dp.length-1];
     }
 }
