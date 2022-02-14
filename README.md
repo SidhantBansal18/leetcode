@@ -73,6 +73,7 @@
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](./solutions/240.%20Search%20a%202D%20Matrix%20II.java)|4 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](./solutions/300.%20Longest%20Increasing%20Subsequence.java)|82 ms|
+|322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Java](./solutions/322.%20Coin%20Change.java)|21 ms|
 |334|[ Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Java](./solutions/334.%20Increasing%20Triplet%20Subsequence.java)|2 ms|
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Java](./solutions/347.%20Top%20K%20Frequent%20Elements.java)|11 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.java)|13 ms|
