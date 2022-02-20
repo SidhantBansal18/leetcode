@@ -80,6 +80,7 @@
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.java)|13 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Java](./solutions/409.%20Longest%20Palindrome.java)|8 ms|
 |417|[ Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Java](./solutions/417.%20Pacific%20Atlantic%20Water%20Flow.java)|32 ms|
+|424|[ Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Java](./solutions/424.%20Longest%20Repeating%20Character%20Replacement.java)|78 ms|
 |435|[ Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[Java](./solutions/435.%20Non-overlapping%20Intervals.java)|50 ms|
 |438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Java](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.java)|16 ms|
 |451|[ Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Java](./solutions/451.%20Sort%20Characters%20By%20Frequency.java)|7 ms|
