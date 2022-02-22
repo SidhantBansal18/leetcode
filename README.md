@@ -95,6 +95,7 @@
 |819|[ Most Common Word](https://leetcode.com/problems/most-common-word/)|[Java](./solutions/819.%20Most%20Common%20Word.java)|18 ms|
 |986|[ Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[Java](./solutions/986.%20Interval%20List%20Intersections.java)|2 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|4 ms|
+|1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Java](./solutions/1143.%20Longest%20Common%20Subsequence.java)|10 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.java)|19 ms|
 |1492|[ The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[Java](./solutions/1492.%20The%20kth%20Factor%20of%20n.java)|2 ms|
 |1636|[ Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Java](./solutions/1636.%20Sort%20Array%20by%20Increasing%20Frequency.java)|6 ms|
