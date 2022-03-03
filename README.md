@@ -98,6 +98,7 @@
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Java](./solutions/525.%20Contiguous%20Array.java)|19 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|1 ms|
 |572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./solutions/572.%20Subtree%20of%20Another%20Tree.java)|5 ms|
+|617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](./solutions/617.%20Merge%20Two%20Binary%20Trees.java)|0 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|4 ms|
 |647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](./solutions/647.%20Palindromic%20Substrings.java)|30 ms|
 |696|[ Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Java](./solutions/696.%20Count%20Binary%20Substrings.java)|17 ms|
