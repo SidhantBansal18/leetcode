@@ -15,21 +15,23 @@
  */
 class Solution {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        if(root == null){    
-            return false;
+        
+        if(root == null){
+            return false; 
         }
         
-        if(isSame(root,subRoot)){
+        if(check(root,subRoot)){
             return true;
         }
         
         return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
+        
     }
     
-    public boolean isSame(TreeNode root, TreeNode subRoot){
+    public boolean check(TreeNode root, TreeNode subRoot){
         
         if(root == null && subRoot == null){
-            return true;
+            return true; 
         }
         
         if(root == null || subRoot == null){
@@ -40,6 +42,7 @@ class Solution {
             return false;
         }
         
-        return isSame(root.left, subRoot.left) && isSame(root.right, subRoot.right);
+        return check(root.left, subRoot.left) && check(root.right, subRoot.right);
     }
+    
 }
