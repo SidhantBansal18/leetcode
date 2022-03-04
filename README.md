@@ -105,6 +105,7 @@
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Java](./solutions/735.%20Asteroid%20Collision.java)|10 ms|
 |779|[ K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|[Java](./solutions/779.%20K-th%20Symbol%20in%20Grammar.java)|0 ms|
 |819|[ Most Common Word](https://leetcode.com/problems/most-common-word/)|[Java](./solutions/819.%20Most%20Common%20Word.java)|18 ms|
+|977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|1 ms|
 |986|[ Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[Java](./solutions/986.%20Interval%20List%20Intersections.java)|2 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|4 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Java](./solutions/1143.%20Longest%20Common%20Subsequence.java)|10 ms|
