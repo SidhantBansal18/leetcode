@@ -7,23 +7,25 @@ class Solution {
             set.add(num);
         }
         
-        int max_length = 0;
+        int longestStreak = 0;
         
-        for(int i = 0; i < nums.length; i++){
-            int currentNum = nums[i];
-            int curr_length = 1;
+        for(int num: nums){
             
-            if(!set.contains(currentNum-1)){
+            if(!set.contains(num-1)){
+                
+                int currentStreak = 1;
+                int currentNum = num;
                 
                 while(set.contains(currentNum+1)){
-                    currentNum += 1;
-                    curr_length += 1;
+                    currentNum++;
+                    currentStreak ++;
                 }
                 
-                max_length = Math.max(max_length, curr_length);
+                longestStreak = Math.max(longestStreak, currentStreak);
             }
+            
         }
         
-        return max_length;
+        return longestStreak;
     }
 }
