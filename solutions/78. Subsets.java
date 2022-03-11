@@ -1,47 +1,26 @@
 class Solution {
-    
-    //Solving using recursion
-    
     public List<List<Integer>> subsets(int[] nums) {
         
+        Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList();
         
-        List<Integer> input = new ArrayList();
+        List<Integer> temp = new ArrayList();
         
-        for(int i : nums){
-            input.add(i);
-        }
-        
-        result = helper(input, 0);
+        generateSubsets(nums, result, temp, 0);
         
         return result;
+        
     }
     
-    public List<List<Integer>> helper(List<Integer> input, int index){
+    public void generateSubsets(int[] nums, List<List<Integer>> result, List<Integer> temp, int start){
         
-        List<List<Integer>> allSubsets;
+        result.add(new ArrayList<>(temp));
         
-        //Base Case
-        if(index == input.size()){
-            allSubsets = new ArrayList();
-            allSubsets.add(new ArrayList<>());
+        for(int i = start; i < nums.length; i++){
+            temp.add(nums[i]);
+            generateSubsets(nums, result, temp, i+1);
+            temp.remove(temp.size()-1);
         }
-        
-        else{
-            allSubsets = helper(input, index+1);
-            List<List<Integer>> moreSubsets = new ArrayList();
-            int item = input.get(index);
-            
-            for(List<Integer> iteratingEachList : allSubsets){
-                List<Integer> newList = new ArrayList();
-                newList.addAll(iteratingEachList);
-                newList.add(item);
-                moreSubsets.add(newList);
-            }
-            
-            allSubsets.addAll(moreSubsets);
-        }
-        return allSubsets;
         
     }
 }
