@@ -1,38 +1,45 @@
 class Solution {
     public String longestPalindrome(String s) {
         
-        if(s.length() < 1 || s == null)    return "";
-        
+        boolean[][] isPalindrome = new boolean[s.length()][s.length()];
         int start = 0;
         int end = 0;
+        int result = Integer.MIN_VALUE;
         
-        for(int i = 0; i < s.length(); i++){
+        for(int i = 0; i < isPalindrome.length; i++){
             
-            int len1 = palindrome(s, i,i);
-            int len2 = palindrome(s,i,i+1);
-            
-            int result = Math.max(len1,len2);
-            
-            if(result > end-start){
-                start = i - ((result-1)/2);
-                end = i + (result/2);
+            for(int j = 0, k = i; k < isPalindrome[0].length; j++, k++){
+                
+                if(j == k){
+                    isPalindrome[j][k] = true;
+                }
+                
+                else if(k-j == 1){
+                    if(s.charAt(k) == s.charAt(j)){
+                        isPalindrome[j][k] = true;
+                        if((k-j) > result){
+                            result = k-j;
+                            start = j;
+                            end = k;
+                        }
+                    }
+                }
+                
+                else{
+                    if(s.charAt(k) == s.charAt(j) && isPalindrome[j+1][k-1]){
+                        isPalindrome[j][k] = true;
+                        if((k-j) > result){
+                            result = k-j;
+                            start = j;
+                            end = k;
+                        }
+                    }
+                }
             }
             
         }
         
-        return s.substring(start,end+1);
+        return s.substring(start, end+1).toString();
         
-    }
-    
-    public int palindrome(String s, int left, int right){
-        
-        if(s == null || left > right)    return 0;
-        
-        while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
-            left--;
-            right++;
-        }
-        
-        return right-left-1;
     }
 }
