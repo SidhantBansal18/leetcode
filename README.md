@@ -3,7 +3,7 @@
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
 |1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./solutions/1.%20Two%20Sum.java)|4 ms|
-|5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./solutions/5.%20Longest%20Palindromic%20Substring.java)|42 ms|
+|5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./solutions/5.%20Longest%20Palindromic%20Substring.java)|330 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](./solutions/11.%20Container%20With%20Most%20Water.java)|6 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Java](./solutions/15.%203Sum.java)|19 ms|
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.java)|0 ms|
