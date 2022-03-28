@@ -7,15 +7,15 @@ class Solution {
         
         for(int i = 1; i < intervals.length; i++){
             
-            if(intervals[i][0] >= prevEnd){
+            if(prevEnd <= intervals[i][0]){
                 prevEnd = intervals[i][1];
             }
             else{
-                result++;
+                result ++;
                 prevEnd = Math.min(prevEnd, intervals[i][1]);
             }
         }
         
         return result;
-    }
+    }
 }
