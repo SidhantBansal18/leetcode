@@ -86,7 +86,7 @@
 |235|[ Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.java)|6 ms|
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.java)|11 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Java](./solutions/238.%20Product%20of%20Array%20Except%20Self.java)|3 ms|
-|240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](./solutions/240.%20Search%20a%202D%20Matrix%20II.java)|4 ms|
+|240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](./solutions/240.%20Search%20a%202D%20Matrix%20II.java)|8 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](./solutions/287.%20Find%20the%20Duplicate%20Number.java)|55 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](./solutions/300.%20Longest%20Increasing%20Subsequence.java)|86 ms|
