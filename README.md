@@ -36,6 +36,7 @@
 |77|[ Combinations](https://leetcode.com/problems/combinations/)|[Java](./solutions/77.%20Combinations.java)|20 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[Java](./solutions/78.%20Subsets.java)|1 ms|
 |79|[ Word Search](https://leetcode.com/problems/word-search/)|[Java](./solutions/79.%20Word%20Search.java)|130 ms|
+|81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Java](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.java)|3 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.java)|1 ms|
 |90|[ Subsets II](https://leetcode.com/problems/subsets-ii/)|[Java](./solutions/90.%20Subsets%20II.java)|2 ms|
 |91|[ Decode Ways](https://leetcode.com/problems/decode-ways/)|[Java](./solutions/91.%20Decode%20Ways.java)|4 ms|
