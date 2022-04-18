@@ -130,6 +130,7 @@
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|4 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Java](./solutions/1143.%20Longest%20Common%20Subsequence.java)|10 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.java)|19 ms|
+|1306|[ Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Java](./solutions/1306.%20Jump%20Game%20III.java)|33 ms|
 |1492|[ The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[Java](./solutions/1492.%20The%20kth%20Factor%20of%20n.java)|2 ms|
 |1636|[ Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Java](./solutions/1636.%20Sort%20Array%20by%20Increasing%20Frequency.java)|6 ms|
 |1710|[ Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Java](./solutions/1710.%20Maximum%20Units%20on%20a%20Truck.java)|16 ms|
