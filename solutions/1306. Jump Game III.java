@@ -33,14 +33,14 @@ class Solution {
         
         if(visited.contains(start)){
             return false;
-        }
+        }
         
         ArrayList<Integer> tempReachables = reachables.get(start);
         // System.out.println();
         boolean result = false;
+        visited.add(start);
         for(int i = 0; i < tempReachables.size(); i++){
-            
-            visited.add(start);
+        
             result = dfs(arr, tempReachables.get(i), reachables, visited);
             if(result == true)  return true; 
             // visited.clear();
