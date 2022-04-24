@@ -110,6 +110,7 @@
 |451|[ Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Java](./solutions/451.%20Sort%20Characters%20By%20Frequency.java)|7 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./solutions/485.%20Max%20Consecutive%20Ones.java)|3 ms|
 |494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[Java](./solutions/494.%20Target%20Sum.java)|1194 ms|
+|500|[ Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Java](./solutions/500.%20Keyboard%20Row.java)|0 ms|
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Java](./solutions/525.%20Contiguous%20Array.java)|19 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|1 ms|
 |547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Java](./solutions/547.%20Number%20of%20Provinces.java)|2 ms|
