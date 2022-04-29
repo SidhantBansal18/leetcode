@@ -122,6 +122,7 @@
 |696|[ Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Java](./solutions/696.%20Count%20Binary%20Substrings.java)|17 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Java](./solutions/735.%20Asteroid%20Collision.java)|10 ms|
 |779|[ K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)|[Java](./solutions/779.%20K-th%20Symbol%20in%20Grammar.java)|0 ms|
+|796|[ Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](./solutions/796.%20Rotate%20String.java)|0 ms|
 |819|[ Most Common Word](https://leetcode.com/problems/most-common-word/)|[Java](./solutions/819.%20Most%20Common%20Word.java)|18 ms|
 |871|[ Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|[Java](./solutions/871.%20Minimum%20Number%20of%20Refueling%20Stops.java)|5 ms|
 |897|[ Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Java](./solutions/897.%20Increasing%20Order%20Search%20Tree.java)|1 ms|
