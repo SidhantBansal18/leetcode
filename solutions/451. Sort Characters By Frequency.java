@@ -1,24 +1,33 @@
 class Solution {
     public String frequencySort(String s) {
-        char[] arr = s.toCharArray();
-        Arrays.sort(arr);
-        List<String> list = new ArrayList();
-        StringBuilder sb = new StringBuilder();
-        sb.append(arr[0]);
-        for(int i = 1; i < arr.length; i++){
-            if(arr[i] != arr[i-1]){
-                list.add(sb.toString());
-                sb = new StringBuilder();
-            }
-            sb.append(arr[i]);
+        
+        //Frequency Map part
+        HashMap<Character, Integer> frequencyMap = new HashMap();
+        
+        for(char c: s.toCharArray()){
+            frequencyMap.put(c, frequencyMap.getOrDefault(c, 0)+1);
         }
-        list.add(sb.toString());
-        Collections.sort(list, (a,b) -> b.length() - a.length());
-        System.out.println(list);
+        
+        //Priorty Queue where we store characters according to the frequency in descending order
+        PriorityQueue<Character> topFrequentQueue = new PriorityQueue((a,b) -> frequencyMap.get(b) - frequencyMap.get(a));
+        
+        for(Map.Entry<Character, Integer> hm : frequencyMap.entrySet()){
+            topFrequentQueue.add(hm.getKey());
+        }
+        
+        //Appending characters to the result as per their frequency
         StringBuilder result = new StringBuilder();
-        for(int i = 0; i < list.size(); i++){
-            result.append(list.get(i));
+        
+        while(!topFrequentQueue.isEmpty()){
+            char current = topFrequentQueue.poll();
+            int tempFrequency = frequencyMap.get(current);
+            while(tempFrequency != 0){
+                result.append(current);
+                tempFrequency--;
+            }
         }
+        
         return result.toString();
+        
     }
 }
