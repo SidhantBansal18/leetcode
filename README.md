@@ -79,7 +79,7 @@
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.java)|1 ms|
 |212|[ Word Search II](https://leetcode.com/problems/word-search-ii/)|[Java](./solutions/212.%20Word%20Search%20II.java)|1575 ms|
 |213|[ House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Java](./solutions/213.%20House%20Robber%20II.java)|0 ms|
-|215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.java)|4 ms|
+|215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.java)|6 ms|
 |216|[ Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](./solutions/216.%20Combination%20Sum%20III.java)|1 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](./solutions/217.%20Contains%20Duplicate.java)|6 ms|
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./solutions/226.%20Invert%20Binary%20Tree.java)|0 ms|
