@@ -17,23 +17,23 @@ class Solution {
         
         StringBuilder combination = new StringBuilder();
         
-        backtrack(result, digits, mapping, combination, 0);
+        backtrack(result, digits, mapping, combination);
         
         return result;
     }
     
-    public void backtrack(List<String> result, String digits, HashMap<Character, String> mapping, StringBuilder combination, int offset){
+    public void backtrack(List<String> result, String digits, HashMap<Character, String> mapping, StringBuilder combination){
         
         if(combination.length() == digits.length()){
             result.add(combination.toString());
             return;
         }
         
-        String curr = mapping.get(digits.charAt(offset));
+        String curr = mapping.get(digits.charAt(combination.length()));
         
         for(int j = 0; j < curr.length(); j++){
             combination.append(curr.charAt(j));
-            backtrack(result, digits, mapping, combination, offset+1);
+            backtrack(result, digits, mapping, combination);
             combination.deleteCharAt(combination.length()-1);
         }
         return;
