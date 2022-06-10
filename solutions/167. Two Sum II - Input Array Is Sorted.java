@@ -1,26 +1,30 @@
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         
-        Map<Integer, Integer> indexValues = new HashMap();
+        int left = 0;
+        int right = numbers.length-1;
         
-        for(int i = 0; i < numbers.length; i++){
-            indexValues.put(numbers[i], i+1);
-        }
-        List<Integer> result = new ArrayList();
+        int[] ans = new int[2];
         
-        for(int i = 0; i < numbers.length; i++){
-            int toFind = target - numbers[i];
-            if(indexValues.containsKey(toFind) && indexValues.get(toFind) != i+1){
-                result.add(i+1);
-                result.add(indexValues.get(toFind));
-                break;
+        while(left < right){
+            int currSum = numbers[left] + numbers[right];
+            if(currSum == target){
+                ans[0] = left+1;
+                ans[1] = right+1;
+                return ans;
+            }
+            if(currSum < target){
+                left++;
+            }
+            else{
+                right--;
             }
         }
-        Collections.sort(result);
-        int[] finalResult = new int[result.size()];
-        for(int i = 0; i < result.size(); i++){
-            finalResult[i] = result.get(i);
-        }
-        return finalResult;
+        
+        return ans; 
+        
+        
     }
 }
+​
+//26:42
