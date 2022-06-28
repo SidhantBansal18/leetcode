@@ -140,5 +140,6 @@
 |1492|[ The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[Java](./solutions/1492.%20The%20kth%20Factor%20of%20n.java)|2 ms|
 |1636|[ Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Java](./solutions/1636.%20Sort%20Array%20by%20Increasing%20Frequency.java)|6 ms|
 |1658|[ Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Java](./solutions/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero.java)|7 ms|
+|1695|[ Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Java](./solutions/1695.%20Maximum%20Erasure%20Value.java)|80 ms|
 |1710|[ Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Java](./solutions/1710.%20Maximum%20Units%20on%20a%20Truck.java)|16 ms|
 |2078|[ Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Java](./solutions/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.java)|0 ms|
