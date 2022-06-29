@@ -117,7 +117,7 @@
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|1 ms|
 |547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Java](./solutions/547.%20Number%20of%20Provinces.java)|2 ms|
 |572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./solutions/572.%20Subtree%20of%20Another%20Tree.java)|6 ms|
-|583|[ Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Java](./solutions/583.%20Delete%20Operation%20for%20Two%20Strings.java)|13 ms|
+|583|[ Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Java](./solutions/583.%20Delete%20Operation%20for%20Two%20Strings.java)|112 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](./solutions/617.%20Merge%20Two%20Binary%20Trees.java)|0 ms|
 |621|[ Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[Java](./solutions/621.%20Task%20Scheduler.java)|3 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|4 ms|
