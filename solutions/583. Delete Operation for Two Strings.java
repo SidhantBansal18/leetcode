@@ -10,7 +10,6 @@ class Solution {
             else{
                 dp[0][col] = col != 0? dp[0][col-1]: 0;
             }
-            
         }
         
         for(int row = 0; row < dp.length; row++){
@@ -28,7 +27,7 @@ class Solution {
                 char secondChar = word2.charAt(col);
                 if(firstChar == secondChar){
                     dp[row][col] = dp[row-1][col-1] + 1;
-                }
+                }
                 else{
                     dp[row][col] = Math.max(dp[row-1][col], dp[row][col-1]);
                 }
@@ -36,3 +35,6 @@ class Solution {
         }
         
         int minMoves = word1.length()+word2.length() - (dp[dp.length-1][dp[0].length-1] * 2);
+        return minMoves;
+    }
+}
