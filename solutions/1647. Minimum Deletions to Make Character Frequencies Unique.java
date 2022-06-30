@@ -12,16 +12,11 @@ class Solution {
         
         for(int num : frequencies){
             
-            if(num > 0){
-                if(occurences.contains(num)){
-                    while(occurences.contains(num) && num >= 0){
-                        num--;
-                        minDeletions++;
-                    }
-                }
-                if(num != 0)    occurences.add(num);
+            while(num > 0 && occurences.contains(num)){
+                num--;
+                minDeletions++;
             }
-            
+            occurences.add(num);
         }
         
         return minDeletions;
