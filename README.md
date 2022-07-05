@@ -138,6 +138,7 @@
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Java](./solutions/1041.%20Robot%20Bounded%20In%20Circle.java)|1 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Java](./solutions/1143.%20Longest%20Common%20Subsequence.java)|10 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.java)|19 ms|
+|1268|[ Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[Java](./solutions/1268.%20Search%20Suggestions%20System.java)|76 ms|
 |1306|[ Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Java](./solutions/1306.%20Jump%20Game%20III.java)|34 ms|
 |1492|[ The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[Java](./solutions/1492.%20The%20kth%20Factor%20of%20n.java)|2 ms|
 |1636|[ Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Java](./solutions/1636.%20Sort%20Array%20by%20Increasing%20Frequency.java)|6 ms|
