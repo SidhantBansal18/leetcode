@@ -13,7 +13,7 @@
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./solutions/20.%20Valid%20Parentheses.java)|5 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./solutions/21.%20Merge%20Two%20Sorted%20Lists.java)|1 ms|
 |22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](./solutions/22.%20Generate%20Parentheses.java)|1 ms|
-|23|[ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Java](./solutions/23.%20Merge%20k%20Sorted%20Lists.java)|8 ms|
+|23|[ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Java](./solutions/23.%20Merge%20k%20Sorted%20Lists.java)|10 ms|
 |24|[ Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Java](./solutions/24.%20Swap%20Nodes%20in%20Pairs.java)|0 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./solutions/31.%20Next%20Permutation.java)|0 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.java)|0 ms|
