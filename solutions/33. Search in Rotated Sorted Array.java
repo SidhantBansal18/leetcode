@@ -25,7 +25,7 @@ class Solution {
         }
         else{
             right = rotatePoint;
-        }
+        }
         
         while(left <= right){
             mid = left + (right-left)/2;
