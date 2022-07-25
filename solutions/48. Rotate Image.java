@@ -2,36 +2,36 @@ class Solution {
     public void rotate(int[][] matrix) {
         
         transpose(matrix);
-        rotate(matrix,0,matrix[0].length-1);
+        swap(matrix);
+        
     }
     
     public void transpose(int[][] matrix){
         
         for(int i = 0; i < matrix.length; i++){
-            for(int j = 0; j < matrix[0].length; j++){
+            for(int j = i+1; j < matrix[0].length; j++){
                 
-                if(i != j && i < j){
-                    int temp = matrix[i][j];
-                    matrix[i][j] = matrix[j][i];
-                    matrix[j][i] = temp;
-                }
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
                 
             }
         }
     }
     
-    public void rotate(int[][] matrix, int start, int end){
+    public void swap(int[][] matrix){
         
-        while(start < end){
-            
-            for(int i = 0; i < matrix[0].length; i++){
-                int temp = matrix[i][start];
-                matrix[i][start] = matrix[i][end];
-                matrix[i][end] = temp;
+        int left = 0;
+        int right = matrix[0].length-1;
+        while(left < right){
+            for(int i = 0; i < matrix.length; i++){
+                int temp = matrix[i][left];
+                matrix[i][left] = matrix[i][right];
+                matrix[i][right] = temp;
             }
-            start++;
-            end--;
+            left++;
+            right--;
         }
-        
     }
+    
 }
