@@ -28,7 +28,7 @@
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Java](./solutions/54.%20Spiral%20Matrix.java)|0 ms|
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[Java](./solutions/55.%20Jump%20Game.java)|2 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Java](./solutions/56.%20Merge%20Intervals.java)|15 ms|
-|57|[ Insert Interval](https://leetcode.com/problems/insert-interval/)|[Java](./solutions/57.%20Insert%20Interval.java)|2 ms|
+|57|[ Insert Interval](https://leetcode.com/problems/insert-interval/)|[Java](./solutions/57.%20Insert%20Interval.java)|1 ms|
 |59|[ Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Java](./solutions/59.%20Spiral%20Matrix%20II.java)|0 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Java](./solutions/62.%20Unique%20Paths.java)|1 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./solutions/63.%20Unique%20Paths%20II.java)|0 ms|
