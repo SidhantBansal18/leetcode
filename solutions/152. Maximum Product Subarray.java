@@ -1,23 +1,21 @@
 class Solution {
     public int maxProduct(int[] nums) {
         
+        int maxSoFar = nums[0];
+        int minSoFar = nums[0];
         int result = nums[0];
-        int min = nums[0];
-        int max = nums[0];
         
         for(int i = 1; i < nums.length; i++){
             
-            if(nums[i] < 0){
-                int temp = min;
-                min = max;
-                max = temp;
-            }
+            int curr = nums[i];
             
-            min = Math.min(nums[i], min*nums[i]);
-            max = Math.max(nums[i], max*nums[i]);
-            result = Math.max(result, max);
+            int temp = maxSoFar;
+            maxSoFar = Math.max(curr, Math.max(curr* minSoFar, curr*maxSoFar));
+            minSoFar = Math.min(curr, Math.min(curr* minSoFar, curr*temp));
+            
+            result = Math.max(maxSoFar, result);
         }
         
-        return result;
+        return result; 
     }
 }
