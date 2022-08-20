@@ -3,45 +3,45 @@ class Solution {
         
         int left = 0;
         int right = nums.length-1;
-        int mid;
         
         while(left < right){
-            mid = left + (right-left)/2 ;
             
+            int mid = left + (right-left)/2;
             if(nums[mid] > nums[right]){
-                left = mid + 1;
+                left = mid+1;
             }
             else{
                 right = mid;
             }
         }
         
-        int rotatePoint = left;
+        int originalStart = left;
         left = 0;
         right = nums.length-1;
         
-        if(target >= nums[rotatePoint] && target <= nums[right]){
-            left = rotatePoint;
+        if(target >= nums[originalStart] && target <= nums[right]){
+            left = originalStart;
         }
         else{
-            right = rotatePoint;
-        }
+            right = originalStart;
+        }
         
         while(left <= right){
-            mid = left + (right-left)/2;
             
+            int mid = left + (right-left)/2;
             if(nums[mid] == target){
                 return mid;
             }
-            
-            else if(nums[mid] < target){
+            if(target > nums[mid]){
                 left = mid+1;
             }
             else{
                 right = mid-1;
             }
+            
         }
         
         return -1;
+        
     }
 }
