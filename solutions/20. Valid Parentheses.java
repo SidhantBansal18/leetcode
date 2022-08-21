@@ -1,41 +1,38 @@
 class Solution {
     public boolean isValid(String s) {
         
-        Map<Character, Character> parentheses = new HashMap();
+        Map<Character, Character> parens = new HashMap();
         
-        parentheses.put(')', '(');
-        parentheses.put('}', '{');
-        parentheses.put(']', '[');
+        parens.put(')', '(');
+        parens.put('}', '{');
+        parens.put(']', '[');
         
-        List<Character> openingParantheses = new ArrayList();
-        openingParantheses.add('(');
-        openingParantheses.add('[');
-        openingParantheses.add('{');
-        
-        
-        Stack<Character> visited = new Stack();
+        Stack<Character> top = new Stack<>();
             
         for(int i = 0; i < s.length(); i++){
             
-            Character currChar = s.charAt(i);
+            char curr = s.charAt(i);
             
-            if(openingParantheses.contains(currChar)){
-                visited.push(currChar);
+            if(curr == '(' || curr == '{' || curr == '['){
+                top.push(curr);
             }
-            
             else{
-                Character toBeCompared;
-                if(visited.isEmpty()){
-                    toBeCompared = '#';
+                char topElement;
+                if(top.isEmpty()){
+                    topElement = '#';
                 }
                 else{
-                    toBeCompared = visited.pop();
+                    topElement = top.pop();
                 }
                 
-                Character toCompareWith = parentheses.get(currChar);
-                
-                if(toBeCompared != toCompareWith){
+                if(parens.get(curr) != topElement){
                     return false;
                 }
+                
             }
             
+        }
+        
+        return top.isEmpty();
+    }
+}
