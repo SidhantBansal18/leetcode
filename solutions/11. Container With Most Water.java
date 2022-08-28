@@ -7,18 +7,18 @@ class Solution {
         
         while(left < right){
             
-            int currArea = Math.min(height[left], height[right]) * (right-left);            
-            maxArea = Math.max(currArea, maxArea);
+            maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right-left));
             
             if(height[left] < height[right]){
                 left++;
             }
-            
             else{
                 right--;
             }
+            
         }
         
         return maxArea;
+        
     }
 }
