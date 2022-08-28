@@ -1,7 +1,7 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
         
-        int overallMax = 0;
+        int result = 0;
         int[] dp = new int[nums.length];
         
         for(int i = 0; i < nums.length; i++){
@@ -18,14 +18,14 @@ class Solution {
                 
             }
             
-            dp[i] = max+1;
-            if(dp[i] > overallMax){
-                overallMax = dp[i];
+            dp[i] = 1+max;
+            if(dp[i] > result){
+                result = dp[i];
             }
             
         }
         
-        return overallMax;
+        return result;
         
     }
 }
