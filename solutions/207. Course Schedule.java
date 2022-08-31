@@ -1,44 +1,50 @@
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prereq) {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
         
-        HashMap<Integer, ArrayList<Integer>> courses = new HashMap();
+        Map<Integer, List<Integer>> prereq = new HashMap();
         
         for(int i = 0; i < numCourses; i++){
-            courses.put(i, new ArrayList());
+            
+            prereq.put(i, new ArrayList<Integer>());
+            
         }
         
-        for(int i = 0; i < prereq.length; i++){
-            ArrayList<Integer> list = courses.get(prereq[i][0]);
-            list.add(prereq[i][1]);
+        for(int i = 0; i < prerequisites.length; i++){
+            
+            List<Integer> curr = prereq.get(prerequisites[i][0]);
+            curr.add(prerequisites[i][1]);
+            prereq.put(prerequisites[i][0], curr);
+            
         }
         
-        HashSet<Integer> visited = new HashSet();
-        
-        for(int i = 0; i < prereq.length; i++){
-            if(!helper(prereq[i][0], courses, visited)){
-                return false;
+        Set<Integer> visited = new HashSet();
+        for(int i = 0; i < prerequisites.length; i++){
+            
+            if(!bfs(prerequisites[i][0], prereq, visited)){
+                return false; 
             }
+            
         }
         
         return true;
-        
     }
     
-    public boolean helper(int currCourse, HashMap<Integer, ArrayList<Integer>> courses, Set<Integer> visited){
+    public boolean bfs(int currCourse, Map<Integer, List<Integer>> map, Set<Integer> visited){
         
         if(visited.contains(currCourse)){
-            return false;
+            return false; 
         }
         
         visited.add(currCourse);
-        ArrayList<Integer> currPreq = courses.get(currCourse);
-        for(int i = 0; i < currPreq.size(); i++){
-            if(!helper(currPreq.get(i), courses, visited)){
-                return false;
+        List<Integer> currList = map.get(currCourse);
+        for(int i = 0; i < currList.size(); i++){
+            if(!bfs(currList.get(i), map, visited)){
+                return false; 
             }
         }
+        
         visited.remove(currCourse);
-        courses.put(currCourse, new ArrayList<Integer>());
+        map.put(currCourse, new ArrayList<Integer>());
         return true;
     }
 }
